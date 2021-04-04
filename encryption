@@ -1,9 +1,0 @@
-from PIL import Image, ImageDraw
-import os
-import sys
-import cv2
-from random import SystemRandom
-from tkinter import *
-from tkinter import filedialog
-
-def encryption
