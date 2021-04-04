@@ -1,0 +1,13 @@
+from PIL import Image, ImageDraw
+import os
+import sys
+import cv2
+from random import SystemRandom
+#input an image
+def inputimage
+    print ("Select an image to input")
+    CrypImage = image.open()
+    #resize the image
+    CrypImage = image.resize((400, 400))
+    #display the image
+    CrypImage.show

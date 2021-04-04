@@ -1,0 +1,38 @@
+from PIL import Image, ImageDraw
+import os
+import sys
+import cv2
+from random import SystemRandom
+from tkinter import *
+from tkinter import filedialog
+import math
+import PySimpleGUI as sg
+import os.path
+
+#define the GUI
+layout = [[sg.Text ("Input an image to be encyrpted")],
+          [sg.Input(key='-Input-')],
+          [sg.Text(size=(40,1), key='-OUTPUT-')],
+          [sg.Button('Enter'), sg.Button('Quit')]
+          ]
+
+#Create the GUI
+Gui = sg.GUI('Image_Encryption', layout)
+
+#Event loop
+#while True:
+#    event, values = Gui.read()
+    #If the user clicks Quit
+#    if event ==
+
+file_list_column = [
+    [
+        sg.Text("Image Folder"),
+        sg.In(size=(25, 1), enable_events=True, key="-FOLDER-"),
+        sg.FolderBrowse(),
+    ],
+    ]
+        sg.Listbox(
+            values=[], enable_events=True, size=(40, 20), key="-FILE LIST-"
+        )
+    ],
